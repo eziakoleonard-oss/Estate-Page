@@ -1,0 +1,178 @@
+/* Import Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Strichpunkt+Sans:wght@400..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Strichpunkt Sans", sans-serif;
+}
+.Nav-Bar{ 
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #e7e3e3;
+    /* background: linear-gradient(rgb(20, 20, 150, 0.1), rgb(20, 20, 150, 0.1)); */
+}
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.nav-links ul li{
+    padding: 0 10px;
+}
+.Searchbar{
+    border-radius: 30px;
+    padding: 13px 10px;
+    border: none;
+    max-width: 100%;
+    outline: none;
+    background: linear-gradient(rgb(20, 20, 150, 0.5), rgb(20, 20, 150, 0.4));
+    color: white;
+}
+.Searchbar::placeholder{
+    color: #ccc;
+}
+.fa-arrow-right{
+    color: #c2c0c0;
+    position: relative;
+    left: 80%;
+    bottom: 30px;
+}
+.Hero{
+    background: linear-gradient(rgb(20, 20, 150, 0.6), rgb(20, 20, 150, 0.6)), 
+    url(/Images/frames-for-your-heart-mR1CIDduGLc-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+     padding: 20px 80px;
+    color: #f2f2f2;
+}
+.hero-contents{
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    margin: 55px 0 0 0;
+}
+.writeup{
+    margin: 20px 0;
+    /* max-width: 50%; */
+}
+.writeup .write{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.city{
+    /* display:flex; */
+    /* justify-content:space-between; */
+    /* align-items: center; */
+    background: #fff;
+    box-shadow: 0 0 20px rgb(159, 159, 158);
+    padding: 10px;
+    border-radius: 40px;
+    margin: 0 110px;
+    position: relative;
+    top: -40px;
+}
+/* .citys{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    max-width: 50%;
+} */
+ .citys{
+    display: flex;
+    justify-content: space-between;
+ }
+ .citys select{
+    border: none;
+    outline: none;
+ }
+ #search-opt{
+    background: #202089;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+ }
+.Housing{
+    display:flex;
+    justify-content:space-evenly;
+    gap: 15px;
+    padding: 10px;
+    margin: 10px
+}
+.house-container-main{
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
+    transition: .3s ease;
+}
+.main-c{
+    box-shadow:#e8e2e2;
+    border-radius: 10px;
+    transition: .3s ease;
+}
+.houseimage, .image-house, .Houseimg{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.main-c:hover{
+    transform: translateX(-10px);
+    cursor: pointer;
+}
+.home-contents{
+    padding: 12px;
+}
+.main-container{
+    box-shadow:0 0 10px #ccc;
+    border-radius: 10px;
+    transition: .3s ease;
+}
+.main-container:hover{
+    transform: translateX(-10px);
+    cursor: pointer;
+}
+.image{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.house-container-main:hover{
+    transform: translateX(-10px);
+    cursor: pointer;
+}
+.image-description{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.Housing-content{
+    padding: 12px;
+}
+.house-contents{
+    padding: 12px;
+}
+#image11{
+         padding: 20px 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2em;
+    /* justify-content: space-between; */
+    background: white;
+    /* gap: 45px; */
+}
+.home{
+    background: none;
+    border: none;
+    padding: 5px
+}
