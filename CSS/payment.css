@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    /* background: azure; */
+}
+.LOGO{
+    text-align: center;
+    text-decoration: solid;
+    padding:10px 20px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.nav-btns{ 
+    text-align: right;
+    padding: 10px;
+    font-style: italic;
+    margin-top: 10px;
+}
+.Hero-image{
+    background: url(/weekthree/Images/6b5c809c-cdc7-43aa-8170-6691f52b3227.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
+}
+.text-section{
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.main-cards{
+    display: flex;
+    justify-content:space-evenly;
+    background: rgb(231, 226, 216);
+    text-align: center;
+}
+.body-payment{
+    background: rgb(39, 39, 219);
+    color: #f1f1f1;
+    padding: 25px;
+    /* text-align: center; */
+}
+#first-body{
+    display: flex;
+    justify-content: space-between;
+}
+.Paypalacct{
+    display: flex;
+    justify-content: center;
+    background: blue;
+    color: #f1f1f1;
+}

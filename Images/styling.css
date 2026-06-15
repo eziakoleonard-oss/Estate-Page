@@ -1,0 +1,37 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+/* NAV BAR */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+}
+.logo{
+    color: #38bdf8;
+}
+.nav-links{
+    display: flex;
+    gap: 15px;
+    list-style:none;
+}
+.nav-links a{
+    text-decoration: dashed;
+    color: azure;
+    transition: 0.3;
+}
+/* hero section */
+.hero{
+    display: -moz-grid-line;
+font-display: block;
+    border-radius: 20px;
+}
